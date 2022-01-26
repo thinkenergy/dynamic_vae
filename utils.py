@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2021/11/3 17:21
-# @Author : liujiachang
-# @Email : liujiachang@thinkenergy.net.cn
+# @Author : huangshaobo,liujiachang,zhangyang  
+# @Email : sdk.eval@thinkenergy.net.cn
 # @File : utils.py
 import traceback
 

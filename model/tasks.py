@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2021/10/11 16:48
-# @Author : liujiachang
-# @Email : liujiachang@thinkenergy.net.cn
+# @Author : huangshaobo,liujiachang,zhangyang
+# @Email : sdk.eval@thinkenergy.net.cn
 # @File : tasks.py
 import numpy as np
 import torch

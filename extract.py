@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2021/11/13 14:29
-# @Author : huangshaobo
-# @Email : huangshaobo@thinkenergy.net.cn
+# @Author : huangshaobo，liujiachang,zhangyang                                                 
+# @Email : sdk.eval@thinkenergy.net.cn
 # @File : extract.py
 import json
 import os

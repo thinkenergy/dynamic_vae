@@ -23,11 +23,11 @@
   "min_length": 30,
   "nll_weight": 0.05,
   "latent_label_weight": 0.01,
-  "save_model_path": "PRETRAIN_MODEL",
+  "save_model_path": "PRETRAIN",
   "granularity_all": 1000,
   "num_granularity_all": 100,
   "granularity_car": 1000,
   "num_granularity_car": 200,
   "use_flag": "rec_error",
-  "train_path": "DATASET/dataset/Dataset/dahu/test_mulmileage"
+  "train_path": "DATA/dataset/dahu/test_mulmileage"
 }

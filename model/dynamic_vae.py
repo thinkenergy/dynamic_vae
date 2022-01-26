@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # @Time : 2021/10/9 14:53
-# @Author : liujiachang
-# @Email : liujiachang@thinkenergy.net.cn
-# @File : dataset.py
+# @Author : huangshaobo,liujiachang,zhangyang 
+# @Email : sdk.eval@thinkenergy.net.cn
+# @File : dynamic_vae.py
 
 import torch
 import torch.nn as nn

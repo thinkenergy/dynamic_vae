@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2021/10/9 14:53
-# @Author : liujiachang
-# @Email : liujiachang@thinkenergy.net.cn
+# @Author : huangshaobo,liujiachang,zhangyang 
+# @Email : sdk.eval@thinkenergy.net.cn
 # @File : dataset.py
 
 import os

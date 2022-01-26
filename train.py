@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2021/10/11 9:59
-# @Author : huangshaobo
-# @Email : huangshaobo@thinkenergy.net.cn
+# @Author : huangshaobo,liujiachang,zhangyang  
+# @Email : sdk.eval@thinkenergy.net.cn
 # @File : train.py
 import json
 import os
@@ -101,7 +101,7 @@ class Train:
         train = PreprocessNormalizer(data_pre, normalizer_fn=self.normalizer.norm_func)
         print("Data loaded successfully.")
 
-        self.args.columns=torch.load(os.path.join("DATASET/dataset","column.pkl"))
+        self.args.columns=torch.load(os.path.join("DATA/","column.pkl"))
         self.data_task = tasks.Task(task_name=self.args.task, columns=self.args.columns)
         params = dict(
             rnn_type=self.args.rnn_type,

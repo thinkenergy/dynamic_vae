@@ -13,14 +13,15 @@
 
 ## How to get data
 ```python
-cd DATASET/dataset
+cd DATA
 wget http://82.156.209.173/s/6Saazbbxq92iez7/download
 unzip download
-cd Dataset/dahu
+cd dataset/dahu
 tar -xf test_mulmileage.tar
 ```
-You can download and decompress the files to the DATASET/dataset directory according to the provided data link, put the data folder in the DATASET subdirectory.
+You can download and decompress the files to the DATA/ directory according to the provided data link, put the data folder in the DATA subdirectory.
 ### How to run：
 ```python
 python train.py
 ```
+> You need to switch to the root directory of the project and run Python train.py. The network will generate the features of the data set extracted under the current time and store them in the feature folder, store the model structure of the network in the Model folder, and store the loss changes during training in the Loss folder.  
